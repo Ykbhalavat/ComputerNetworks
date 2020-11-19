@@ -14,14 +14,14 @@ import java.util.Scanner;
 public class Client {
   private Socket socket = null;
   private BufferedReader dataInput = null;
-  private DataOutputStream dataOutput = null;
+  private PrintStream dataOutput = null;
 
   public Client(String address, int portNum) {
     // start the connection process
     try {
       socket = new Socket(address, portNum);
       dataInput = new BufferedReader(new InputStreamReader(System.in));
-      dataOutput = new DataOutputStream(socket.getOutputStream());
+      dataOutput = new PrintStream(socket.getOutputStream());
       System.out.println("Connection to Server Successful");
     } catch (UnknownHostException hostExecpt) {
       System.out.println(hostExecpt);
@@ -36,7 +36,7 @@ public class Client {
     while (!userInput.equals("end")) {
       try {
         userInput = dataInput.readLine();
-        dataOutput.writeUTF(userInput);
+        dataOutput.println(userInput);
       } catch (IOException IO) {
         System.out.println(IO);
       }

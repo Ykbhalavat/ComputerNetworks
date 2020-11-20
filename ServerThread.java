@@ -50,8 +50,11 @@ public class ServerThread extends Thread {
             nameofclient = in.readLine();
             log("Connection with the client " + nameofclient + " was successful.");
             int timeOfConnection;
-            // System.out.println("Connection with the client " + nameofclient + " was
-            // successful.");
+            String timeAndDate;
+            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss yyyy/MM/dd");
+            LocalDateTime now = LocalDateTime.now();
+            timeAndDate = dtf.format(now);
+            System.out.println("Connection with the client " + nameofclient + " was successful at " + timeAndDate);
             out.writeBytes("Connection with server was successful!" + "\n");
 
         } catch (IOException e) {
@@ -70,8 +73,8 @@ public class ServerThread extends Thread {
                     int timeOfConnection = findTimeOfConnection(client.get(index));
                     log(nameofclient + " asked to terminate the request from the client.");
                     log(nameofclient + " was connected for " + timeOfConnection + " seconds");
-                    // System.out.println(nameofclient + " asked to terminate the request from the
-                    // client.");
+                    System.out.println(nameofclient + " asked to terminate the request from the client.");
+                    System.out.println(nameofclient + " was connected for " + timeOfConnection + " seconds");
                     socket.close();
                     break;
                 }

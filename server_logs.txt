@@ -1,0 +1,71 @@
+20:53:28 2020/11/19 Connection with the client Harry was successful.
+20:56:09 2020/11/19 server started
+20:56:09 2020/11/19 Waiting for client...
+20:56:18 2020/11/19 server started
+20:56:18 2020/11/19 Waiting for client...
+20:56:21 2020/11/19 Connection with the client Harry was successful.
+20:56:26 2020/11/19 Equation received :  1 + 1
+20:56:26 2020/11/19 Sending the result to client as :  2
+20:56:34 2020/11/19 Equation received :  10 + 10
+20:56:34 2020/11/19 Sending the result to client as :  20
+20:56:38 2020/11/19 Equation received :  10 * 10
+20:56:38 2020/11/19 Sending the result to client as :  100
+20:56:40 2020/11/19 Harry asked to terminate the request from the client.
+20:56:46 2020/11/19 server started
+20:56:46 2020/11/19 Waiting for client...
+20:56:49 2020/11/19 Connection with the client John was successful.
+20:56:53 2020/11/19 Equation received :  10 + 14
+20:56:53 2020/11/19 Sending the result to client as :  24
+20:56:55 2020/11/19 John asked to terminate the request from the client.
+
+STARTING A NEW SERVER
+
+21:01:26 2020/11/19 server started
+21:01:26 2020/11/19 Waiting for client...
+21:01:34 2020/11/19 server started
+21:01:34 2020/11/19 Waiting for client...
+21:01:37 2020/11/19 Connection with the client Harry was successful.
+21:01:40 2020/11/19 Harry asked to terminate the request from the client.
+
+STARTING A NEW SERVER
+
+21:03:28 2020/11/19 server started
+21:03:28 2020/11/19 Waiting for client...
+21:03:37 2020/11/19 server started
+21:03:37 2020/11/19 Waiting for client...
+21:03:39 2020/11/19 Connection with the client Harry was successful.
+
+STARTING A NEW SERVER
+
+21:20:05 2020/11/19 server started
+21:20:05 2020/11/19 Waiting for client...
+21:20:13 2020/11/19 server started
+21:20:13 2020/11/19 Waiting for client...
+21:20:16 2020/11/19 Connection with the client Harry was successful.
+21:20:19 2020/11/19 Equation received :  1 + 1
+21:20:19 2020/11/19 Sending the result to client as :  2
+21:20:21 2020/11/19 Harry asked to terminate the request from the client.
+21:20:21 2020/11/19 Harry was connected for 5seconds
+
+STARTING A NEW SERVER
+
+21:22:30 2020/11/19 server started
+21:22:30 2020/11/19 Waiting for client...
+21:22:37 2020/11/19 server started
+21:22:37 2020/11/19 Waiting for client...
+21:22:40 2020/11/19 Connection with the client Harry was successful.
+21:22:44 2020/11/19 Equation received :  1 + 1
+21:22:44 2020/11/19 Sending the result to client as :  2
+21:22:48 2020/11/19 server started
+21:22:48 2020/11/19 Waiting for client...
+21:22:51 2020/11/19 Connection with the client John was successful.
+21:22:53 2020/11/19 Equation received :  1 + 1
+21:22:53 2020/11/19 Sending the result to client as :  2
+21:22:56 2020/11/19 Equation received :  2 + 2
+21:22:56 2020/11/19 Sending the result to client as :  4
+21:23:03 2020/11/19 Equation received :  1 + 3
+21:23:03 2020/11/19 Sending the result to client as :  4
+21:23:05 2020/11/19 Harry asked to terminate the request from the client.
+21:23:05 2020/11/19 Harry was connected for 14 seconds
+21:23:09 2020/11/19 John asked to terminate the request from the client.
+21:23:09 2020/11/19 John was connected for 18 seconds
